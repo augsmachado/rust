@@ -7,7 +7,7 @@ fn main() {
 
     let mut nth_number = String::new();
 
-    println!("Please input a nth Fibonacci number");
+    println!("Please input a nth Fibonacci number");  // must be a floating point number
 
     io::stdin().read_line(&mut nth_number).expect("Failed to read nth Fibonacci number");
 
