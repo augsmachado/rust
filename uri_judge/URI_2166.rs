@@ -3,7 +3,7 @@
 // For example, by repeating 2 times the continued fraction to calculate the square root of 2
 // Your task is to calculate the approximate value of square root of 2 given the number N of repetitions.
 
-//use std::io;
+use std::io;
 
 fn main() {
     println!("The number of repetitions must be between zero and 100:");
